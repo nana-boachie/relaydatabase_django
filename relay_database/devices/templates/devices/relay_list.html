@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Relay List</title>
+</head>
+<body>
+    <h1>Relay List</h1>
+    <ul>
+        {% for relay in relays %}
+        <p >setfile:
+        <li>{{relay.setfile}}</li></p>
+            <li>{{ relay.area }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+<style>
+    p{
+        text-align:center;
+    }
+
+</style>
