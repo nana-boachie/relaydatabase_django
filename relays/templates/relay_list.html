@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Relay List</title>
+    </head>
+    <body>
+        <h1>Relay List</h1>
+        <ul>
+            {% for relay in relays %}
+            <li>
+                {{ relay.relay_name }} - {{ relay.get_manufacturer_display }}
+            </li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>

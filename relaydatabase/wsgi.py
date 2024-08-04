@@ -1,5 +1,5 @@
 """
-WSGI config for relay_database project.
+WSGI config for relaydatabase project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'relay_database.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'relaydatabase.settings')
 
 application = get_wsgi_application()
